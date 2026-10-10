@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
 # Cross-platform Toolbox
 
 Three small command-line utilities for Windows, macOS, and Linux. They use only the Python standard library and work offline.
