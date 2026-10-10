@@ -44,13 +44,7 @@ python3 toolbox.py disk ~/ --json
 
 ### Fake screen artifacts
 
-Open the visual simulator with:
-
-```sh
-python3 screen_artifacts.py
-```
-
-It animates color bands, scan lines, pixel noise, or an RGB-split effect inside its preview window. Open Settings or press `Ctrl+Num 0` while the app is focused to choose a style, intensity, speed, and color mode. Use Start/stop to toggle the animation. The app does not alter the desktop, display hardware, or files.
+Open `screen_artifacts.html` by double-clicking it, or open it in a browser. It needs no installation. It animates color bands, scan lines, pixel noise, or an RGB-split effect inside its preview. Press `Ctrl+Num 0` while the browser page is active to show or hide the settings menu. Use Start/stop to toggle the animation. The effect stays inside the page and does not alter the desktop, display hardware, or files.
 
 ## Safety
 
