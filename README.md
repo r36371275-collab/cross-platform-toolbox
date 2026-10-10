@@ -42,6 +42,16 @@ python3 toolbox.py disk
 python3 toolbox.py disk ~/ --json
 ```
 
+### Fake screen artifacts
+
+Open the visual simulator with:
+
+```sh
+python3 screen_artifacts.py
+```
+
+It animates color bands, scan lines, pixel noise, or an RGB-split effect inside its preview window. Open Settings or press `Ctrl+Num 0` while the app is focused to choose a style, intensity, speed, and color mode. Use Start/stop to toggle the animation. The app does not alter the desktop, display hardware, or files.
+
 ## Safety
 
 The organizer only examines files directly inside the selected folder, does not follow directory symlinks, and defaults to preview mode. Review the preview before using `--apply`. The password generator never writes credentials to disk.
